@@ -1,4 +1,8 @@
 
+# This script was built to help procure simple data at a quick pace from the source and destination servers before a migration.
+# The script consist of a simple sequential command format, and would help determine if a server was healthy and the right fit for the site prior to migration.
+# Information below outlines key information about php version, CPU, hostname, local IP/inet information, uptime, disk/parition size information,
+# and physical / virtual memory usage. 
 
 migratespec()
 {
