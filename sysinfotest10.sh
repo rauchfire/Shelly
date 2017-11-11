@@ -1,18 +1,18 @@
 
 #Script WIP by Becca Rauch.
 # What is this...
-# This is a large script that runs a sequential chain of commands that will return the overview of system health and infrastructure information.
+# This is a large but basic script that runs a sequential chain of basic commands that will return the overview of system health and infrastructure information.
 
 # Things to work on: 
-#Adding color to more easily identify each child category under parent categories, Possibly Divide this information into two seperate scripts...
-#... adding prompt in the begining of the script before script proceeds to run. run if yes, abort if no. CLean up redundant info and possibly cut down on...
-#... length and size of information displayed to make it easier to read. work with dividing infomration more cleanly in when parsing out server stack information...
-#...under service/versions.
+# Adding color to more easily identify each child category under parent categories, Possibly Divide this information into two seperate scripts...
+# adding prompt in the begining of the script before script proceeds to run. run if yes, abort if no. CLean up redundant info and possibly cut down on...
+# length and size of information displayed to make it easier to read. work with dividing infomration more cleanly in when parsing out server stack information...
+# under service/versions.
 # add Y/N functions and put files in files - filceptions. containersize and turn thing into modular boxes. 
 
 
 
-sysinfotester13 ()
+sysinfo()
 {
 echo -e '\n--------------------------\n\n';
 echo -e " Please be prepared to use sudo access to get all information that this script will be parsing."
