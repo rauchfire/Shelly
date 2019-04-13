@@ -1,5 +1,6 @@
 
-function mysqlbufferchecker(){
+mysqlbufferchecker()
+{
 # -MySQl Space and engine buffers:
 echo -e "\e[31;43m***** MYSQL BUFFERS, MEMORY CONSUMPTION AND USAGE *****\e[0m"
 echo -e '\n       \n\n';
