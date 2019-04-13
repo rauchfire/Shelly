@@ -1,18 +1,4 @@
 
-
-
-function ohhello(){
-  read -p "statement: " sqlbuff
-if [ $sqlbuff = "Y" ];
-    then mysqlbufferchecker;
-  elif [ $sqlbuff = "N" ] ;
-  then
-    echo "No";
-  else
-    echo "NOPE - TRY AGAIN"
-fi
-}
-
 function mysqlbufferchecker(){
 # -MySQl Space and engine buffers:
 echo -e "\e[31;43m***** MYSQL BUFFERS, MEMORY CONSUMPTION AND USAGE *****\e[0m"
